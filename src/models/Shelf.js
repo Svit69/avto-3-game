@@ -26,4 +26,10 @@ export default class Shelf extends GameEntity {
     wrapper.append(image, this.#host);
     return wrapper;
   }
+
+  swapBox(index, newBox) {
+    this.#boxes[index] = newBox;
+    const target = this.#host.children[index];
+    if (target) target.replaceWith(newBox.render());
+  }
 }
