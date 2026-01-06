@@ -4,9 +4,7 @@ export default class LevelManager {
 
   constructor() {
     this.#levels = [
-      { name: 'Старт', triples: 2, seconds: 70, filler: 2 },
-      { name: 'Разгон', triples: 3, seconds: 60, filler: 3 },
-      { name: 'Хард', triples: 4, seconds: 50, filler: 4 }
+      { name: 'Базовый', triples: 10, seconds: 120, filler: 2 }
     ];
   }
 

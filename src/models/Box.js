@@ -12,4 +12,5 @@ export default class Box extends GameEntity{
   resetBox(){this.#items=[];this.#itemsHost.innerHTML='';this.#node.classList.remove('box-closed');}
   markClosed(){this.#node.classList.add('box-closed');}
   get capacity(){return this.#capacity;}
+  typesSnapshot(){return this.#items.map((item)=>item.type);}
 }
