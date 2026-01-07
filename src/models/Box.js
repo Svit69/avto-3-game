@@ -13,4 +13,6 @@ export default class Box extends GameEntity{
   markClosed(){this.#node.classList.add('box-closed');}
   get capacity(){return this.#capacity;}
   typesSnapshot(){return this.#items.map((item)=>item.type);}
+  countByType(){const map=new Map();this.#items.forEach((item)=>map.set(item.type,(map.get(item.type)||0)+1));return map;}
+  size(){return this.#items.length;}
 }

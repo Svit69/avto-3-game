@@ -1,0 +1,19 @@
+{
+  "levels": [
+    { "id": 1, "name": "Разминка", "triples": 10, "seconds": 140, "fillMin": 1, "fillMax": 2, "types": ["cap-black", "cap-red", "puck", "toy-red"], "seed": 101 },
+    { "id": 2, "name": "Пары", "triples": 11, "seconds": 135, "fillMin": 1, "fillMax": 2, "types": ["cap-black", "cap-red", "puck", "toy-red", "jersey-red"], "seed": 102 },
+    { "id": 3, "name": "Ритм", "triples": 12, "seconds": 130, "fillMin": 1, "fillMax": 2, "types": ["cap-black", "cap-red", "puck", "toy-red", "jersey-red"], "seed": 103 },
+    { "id": 4, "name": "Темп", "triples": 13, "seconds": 125, "fillMin": 1, "fillMax": 2, "types": ["cap-black", "cap-red", "puck", "toy-red", "jersey-red", "jersey-white"], "seed": 104 },
+    { "id": 5, "name": "Смена", "triples": 14, "seconds": 120, "fillMin": 1, "fillMax": 2, "types": ["cap-black", "cap-red", "puck", "toy-red", "jersey-red", "jersey-white"], "seed": 105 },
+    { "id": 6, "name": "Порог", "triples": 15, "seconds": 118, "fillMin": 1, "fillMax": 3, "types": ["cap-black", "cap-red", "puck", "toy-red", "jersey-red", "jersey-white", "bag"], "seed": 106 },
+    { "id": 7, "name": "Поток", "triples": 16, "seconds": 115, "fillMin": 1, "fillMax": 3, "types": ["cap-black", "cap-red", "puck", "toy-red", "jersey-red", "jersey-white", "bag"], "seed": 107 },
+    { "id": 8, "name": "Сборка", "triples": 17, "seconds": 112, "fillMin": 1, "fillMax": 3, "types": ["cap-black", "cap-red", "puck", "toy-red", "jersey-red", "jersey-white", "bag", "sticks"], "seed": 108 },
+    { "id": 9, "name": "Комбо", "triples": 18, "seconds": 110, "fillMin": 1, "fillMax": 3, "types": ["cap-black", "cap-red", "puck", "toy-red", "jersey-red", "jersey-white", "bag", "sticks"], "seed": 109 },
+    { "id": 10, "name": "Скорость", "triples": 19, "seconds": 105, "fillMin": 1, "fillMax": 3, "types": ["cap-black", "cap-red", "puck", "toy-red", "jersey-red", "jersey-white", "bag", "sticks", "toy-white"], "seed": 110 },
+    { "id": 11, "name": "Стык", "triples": 20, "seconds": 102, "fillMin": 1, "fillMax": 3, "types": ["cap-black", "cap-red", "puck", "toy-red", "jersey-red", "jersey-white", "bag", "sticks", "toy-white"], "seed": 111 },
+    { "id": 12, "name": "Фокус", "triples": 21, "seconds": 100, "fillMin": 1, "fillMax": 3, "types": ["cap-black", "cap-red", "puck", "toy-red", "jersey-red", "jersey-white", "bag", "sticks", "toy-white", "cap-mix"], "seed": 112 },
+    { "id": 13, "name": "Контроль", "triples": 22, "seconds": 98, "fillMin": 1, "fillMax": 3, "types": ["cap-black", "cap-red", "puck", "toy-red", "jersey-red", "jersey-white", "bag", "sticks", "toy-white", "cap-mix"], "seed": 113 },
+    { "id": 14, "name": "Сейв", "triples": 23, "seconds": 95, "fillMin": 2, "fillMax": 3, "types": ["cap-black", "cap-red", "puck", "toy-red", "jersey-red", "jersey-white", "bag", "sticks", "toy-white", "cap-mix", "winter-ball"], "seed": 114 },
+    { "id": 15, "name": "Финал", "triples": 24, "seconds": 90, "fillMin": 2, "fillMax": 3, "types": ["cap-black", "cap-red", "puck", "toy-red", "jersey-red", "jersey-white", "bag", "sticks", "toy-white", "cap-mix", "winter-ball"], "seed": 115 }
+  ]
+}
